@@ -1,116 +1,77 @@
 # Non-Collison-based-Simulation-Game
 
-Contributors Forks Stargazers Issues MIT License LinkedIn
+<h1 align="center"><project-name></h1>
 
+<p align="center"><project-description></p>
 
-Logo
-Best-README-Template
-An awesome README template to jumpstart your projects!
-Explore the docs »
+## Links
 
-View Demo · Report Bug · Request Feature
+- [Repo](https://github.com/Rohit19060/<project-name> "<project-name> Repo")
 
-Table of Contents
-About The Project
-Product Name Screen Shot
+- [Live](<Homepage url> "Live View")
 
-There are many great README templates available on GitHub; however, I didn't find one that really suited my needs so I created this enhanced one. I want to create a README template so amazing that it'll be the last one you ever need -- I think this is it.
+- [Bugs](https://github.com/Rohit19060/<project-name>/issues "Issues Page")
 
-Here's why:
+- [API](<API Link> "API")
 
-Your time should be focused on creating something amazing. A project that solves a problem and helps others
-You shouldn't be doing the same tasks over and over like creating a README from scratch
-You should implement DRY principles to the rest of your life 😄
-Of course, no one template will serve all projects since your needs may be different. So I'll be adding more in the near future. You may also suggest changes by forking this repo and creating a pull request or opening an issue. Thanks to all the people have contributed to expanding this template!
+## Screenshots
 
-Use the BLANK_README.md to get started.
+![Home Page](/screenshots/1.png "Home Page")
 
-(back to top)
+![](/screenshots/2.png)
 
-Built With
-This section should list any major frameworks/libraries used to bootstrap your project. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
+![](/screenshots/3.png)
 
-Next.js
-React.js
-Vue.js
-Angular
-Svelte
-Laravel
-Bootstrap
-JQuery
-(back to top)
+## Available Commands
 
-Getting Started
-This is an example of how you may give instructions on setting up your project locally. To get a local copy up and running follow these simple example steps.
+In the project directory, you can run:
 
-Prerequisites
-This is an example of how to list things you need to use the software and how to install them.
+### `npm start" : "react-scripts start"`,
 
-npm
-npm install npm@latest -g
-Installation
-Below is an example of how you can instruct your audience on installing and setting up your app. This template doesn't rely on any external dependencies or services.
+The app is built using `create-react-app` so this command Runs the app in Development mode. Open [http://localhost:3000](http://localhost:3000) to view it in the browser. You also need to run the server file as well to completely run the app. The page will reload if you make edits.
+You will also see any lint errors in the console.
 
-Get a free API Key at https://example.com
-Clone the repo
-git clone https://github.com/your_username_/Project-Name.git
-Install NPM packages
-npm install
-Enter your API in config.js
-const API_KEY = 'ENTER YOUR API';
-(back to top)
+### `"npm run build": "react-scripts build"`,
 
-Usage
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
+Builds the app for production to the `build` folder. It correctly bundles React in production mode and optimizes the build for the best performance. The build is minified and the filenames include the hashes. Your app will be ready to deploy!
 
-For more examples, please refer to the Documentation
+### `"npm run test": "react-scripts test"`,
 
-(back to top)
+Launches the test runner in the interactive watch mode.
 
-Roadmap
- Add Changelog
- Add back to top links
- Add Additional Templates w/ Examples
- Add "components" document to easily copy & paste sections of the readme
- Multi-language Support
- Chinese
- Spanish
-See the open issues for a full list of proposed features (and known issues).
+### `"npm run dev": "concurrently "nodemon server" "npm run start"`,
 
-(back to top)
+For running the server and app together I am using concurrently this helps a lot in the MERN application as it runs both the server (client and server) concurrently. So you can work on them both together.
 
-Contributing
-Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are greatly appreciated.
+### `"serve": "node server"`
 
-If you have a suggestion that would make this better, please fork the repo and create a pull request. You can also simply open an issue with the tag "enhancement". Don't forget to give the project a star! Thanks again!
+For running the server file on you can use this command.
 
-Fork the Project
-Create your Feature Branch (git checkout -b feature/AmazingFeature)
-Commit your Changes (git commit -m 'Add some AmazingFeature')
-Push to the Branch (git push origin feature/AmazingFeature)
-Open a Pull Request
-(back to top)
+### `npm run serve`
 
-License
-Distributed under the MIT License. See LICENSE.txt for more information.
+## Built With
 
-(back to top)
+- JavaScript
+- Node
+- NPM
+- Webpack
+- HTML
+- CSS
 
-Contact
-Your Name - @your_twitter - email@example.com
+## Future Updates
 
-Project Link: https://github.com/your_username/repo_name
+- [ ] Reliable Storage
 
-(back to top)
+## Author
 
-Acknowledgments
-Use this space to list resources you find helpful and would like to give credit to. I've included a few of my favorites to kick things off!
+**Rohit Jain**
 
-Choose an Open Source License
-GitHub Emoji Cheat Sheet
-Malven's Flexbox Cheatsheet
-Malven's Grid Cheatsheet
-Img Shields
-GitHub Pages
-Font Awesome
-React Icons
+- [Profile](https://github.com/rohit19060 "Rohit jain")
+- [Email](mailto:rohitjain19060@gmail.com?subject=Hi "Hi!")
+- [Website](https://kingtechnologies.in "Welcome")
+
+## 🤝 Support
+
+Contributions, issues, and feature requests are welcome!
+
+Give a ⭐️ if you like this project!
